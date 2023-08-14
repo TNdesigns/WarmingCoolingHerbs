@@ -1,0 +1,66 @@
+.ol1{
+    list-style-type:circle;
+    background-color:blueviolet;
+    display:inline-block;
+    border-radius:20px;
+    
+}
+.ol2{
+    list-style-type:circle; 
+    background-color:blueviolet; 
+    display: inline-block;
+    border-radius:20px;
+    
+}
+body {
+    background: url('https://www.shutterstock.com/image-vector/set-vector-medicinal-herbs-flowers-260nw-414154945.jpg');
+    background-size:100%;
+    background-repeat: space;
+    
+}
+h2{
+    color:dodgerblue;
+    display:inline-block;
+    text-align: center;
+    margin-left:-12%;
+}
+.ol1, .ol2{
+    margin-left:300px;
+    
+}
+h1{
+    text-align: center;
+}
+@media screen and (max-width:420px){
+    .ol2{
+        position:relative;
+        left:-60px;
+        top:-990px;
+        
+    }
+    .ol1{
+        position:relative;
+        right:270px;
+        
+    }
+    h1{
+        position:relative;
+        font-size:25px;
+        left:0%;
+        
+        
+    }
+    html, body{
+        position:relative;
+        overflow-x: hidden;
+        
+    }
+    h2{
+        margin-left: -44px;
+    }
+}
+@media screen and (max-height:920px){
+    html, body{
+        height:100%;
+    }
+}
